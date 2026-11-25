@@ -19,7 +19,7 @@ TODO: paste the final problem paragraph from the pitch.
 ## Proposed solution
 BreatheSync processes an overnight ECG recording and:
 1. **Detects** apnea vs normal breathing for every minute of the night and shows the detected apnea periods on a timeline, as the challenge requires.
-2. **Forecasts** whether the *next* minute will contain apnea, using only past signal. When the risk crosses a threshold, a gentle wearable vibration alert would be triggered. This moves from reacting after an event to warning before it.
+2. **Forecasts** whether the *next* minute will contain apnea, using only past signal. When the risk crosses a threshold, a gentle wearable vibration alert would be triggered. This moves from reacting after an event to warning before it
 
 ## Key features
 - Signal-processing pipeline: filtering, R-peak detection, RR cleaning, ECG-derived respiration
